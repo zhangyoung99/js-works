@@ -60,7 +60,7 @@
 	margin: 0 auto;
 	height: 690px;
 	width: 1210px;
-	background-image: url(./img/header.png);
+	background-image: url(../img/header.png);
 
 }
 #header h1{
@@ -134,7 +134,7 @@
 	width: 1210px;
 	height: 340px;
 	margin: 0 auto;
-	background-image: url(./img/city.png);
+	background-image: url(../img/city.png);
 	/*position: relative;*/
 
 }
@@ -191,7 +191,7 @@
 .new-img{
 	width: 60%;
 	height: 566px;
-	background-image: url(./img/world.png);
+	background-image: url(../img/world.png);
 /*	margin-left: 10%;*/
 	float: left;
 }
@@ -256,7 +256,7 @@
 .part3{
 	width: 430px;
 	height: 519px;
-	background-image: url(./img/era.png);
+	background-image: url(../img/era.png);
 	position: absolute;
 	top: 0;
 	right: 0;
