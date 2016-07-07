@@ -16,12 +16,12 @@ $(window).on('scroll',function(){
 	if (scrollTop >= offsetTop) {
 		if (!isFixed()) {
 			setFixed();
-		}else{
+		}
+	}else{
 			if (isFixed()) {
 				unsetFixed();
 			}
 		}
-	}
 });
 
 function isFixed(){
