@@ -1,0 +1,150 @@
+
+
+html,body div,ul,li{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,li,a,p{
+	text-align: center;
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+h1{
+	font-size: 4.5em;
+	font-style: bold;
+}
+h2{
+	font-size: 30px;
+}
+.intro a:hover{
+	text-decoration: underline;
+}
+#header {
+	width: 100%;
+	height: 100%;
+	background: url(../image/bg.jpg);
+	background-size: cover;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+.table{
+	display: table;
+	height: 100%;
+}
+.vertial-center{
+	display: table-cell;
+	vertical-align: middle;
+}
+.text-center{
+	text-align: center;
+}
+.btn1{
+	display: inline-block;
+	width: 140px;
+	height: 50px;
+	line-height: 50px;
+	background: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+.btn2 {
+	display: inline-block;
+	width: 95px;
+	height: 50px;
+	line-height: 50px;
+	background: #666;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btn3{
+	display: inline-block;
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+	background: #fff;
+	padding: 10px;
+	text-align: center;
+}
+#content .intro{
+	text-align: center;
+	padding: 50px 0;
+}
+.intro h3 {
+	font-size: 24px;
+}
+#content .job-skill{
+	background: #337ab7;
+	color: #fff;
+	padding: 50px 0;
+	/*height: 300px;*/
+}
+h2 {
+	padding: 20px 0;
+	font-size: 30px;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#content .job-skill li{
+	float: left;
+	width: 25%;
+	/*padding: 10px;*/
+}
+#content .slogan {
+	background: url('../image/callout.jpg');
+	background-size: cover;
+	/*height: 300px;*/
+	padding: 200px 0;
+	color: white;
+}
+#content .portfolio {
+	padding: 30px 0;
+}
+#content .portfolio li {
+	float: left;
+	/*width: 50%;*/
+	width: 465px;
+	height: 305px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+.portfolio ul {
+	margin-right: -20px;
+} 
+.portfolio li img {
+	width: 465px;
+	height: 305px;
+}
+#content .call-to-action {
+	padding: 30px 0;
+	background: #337ab7;
+}
+#footer {
+	padding: 100px 0;
+}
+#footer p{
+	text-align: center;
+}
+#footer .contact-inco {
+	text-align: center;
+}
+#footer .contact-inco li{
+	/*float: left;*/
+	display: inline-block;	
+	margin: 10px;
+}

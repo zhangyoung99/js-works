@@ -5,7 +5,7 @@ GoTop = (function(){
 	var $gotop = $('<div id="go-top">回到顶部</div>');
 	$('body').append($gotop);
 
-	function init(){
+	function init{
 		$(window).on('scroll',function(){
 			$offsetTop = $('body').scrollTop();
 			console.log($offsetTop);
