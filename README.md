@@ -1,4 +1,6 @@
 # fe-works
 
-- 静态页面（html5&css3）和纯css3实现轮播效果
+- 仿start bootstrap静态页面（html5&css3）
+- 纯css3轮播效果
+- tab-shift切换效果
 - zhangyangyuan
